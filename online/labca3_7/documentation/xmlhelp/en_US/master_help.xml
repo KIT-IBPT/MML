@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aadaef45041eafe2bb68ffa93b876d4c6 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/Common.xml">
+<!ENTITY a2c58c2d7b83206988134615876d755bd SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/Error.xml">
+<!ENTITY ac5277aeef9ec88a2027983ba6fb332fa SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaClear.xml">
+<!ENTITY a7ba59af531f25f49dc1a588e5d14d012 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaDebugOff.xml">
+<!ENTITY ac45651e58daccb8354cc4169b38c8025 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaDebugOn.xml">
+<!ENTITY add8e4fff6307fe0adb01a725fa527561 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaDelay.xml">
+<!ENTITY aea369ebcb1644715f105b77dae1aa891 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGet.xml">
+<!ENTITY ad9b6b5350a208d85dacaf0cead2971c9 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetAlarmLimits.xml">
+<!ENTITY a7602c1e64190224a4240405280a667d8 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetControlLimits.xml">
+<!ENTITY ad899ab527b2e73e09545fcb87085b424 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetEnumStrings.xml">
+<!ENTITY ac3480b6383eda536a92a9f552f3c4874 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetGraphicLimits.xml">
+<!ENTITY acaf4fb0afedfd819683c0c7e8226bb67 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetNelem.xml">
+<!ENTITY a23b5fd2f3f47fd6a6abb94a56432254a SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetPrecision.xml">
+<!ENTITY a08c453c701dfe6d52ef26c360c43322a SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetRetryCount.xml">
+<!ENTITY a95b32e07f44e6cf70cb45d30e112b1e8 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetStatus.xml">
+<!ENTITY ad6824ff438f4356a799f0e1d53908dce SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetTimeout.xml">
+<!ENTITY a41244837b49589987670d886a9e76c0f SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetUnits.xml">
+<!ENTITY a0811cb0ff098f9ed25c0587427b9880f SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaGetWarnLimits.xml">
+<!ENTITY a251ff0be886afc10793b059fdb2821fb SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaLastError.xml">
+<!ENTITY a162242ab1e68192a04d568d9ad049410 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaNewMonitorValue.xml">
+<!ENTITY a6593fb90c439538b7af04dcf6dddd88b SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaNewMonitorWait.xml">
+<!ENTITY a6dfe57036446e968bc3daf3d1efc2849 SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaPut.xml">
+<!ENTITY a77f8fb40e23297755dc307bdc279e8bd SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaPutNoWait.xml">
+<!ENTITY aa18ab840041a6f5a012d3494e7ea06db SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaSetMonitor.xml">
+<!ENTITY af130b33aee8976803dc4a1335168f1fb SYSTEM "/home/till/epics/labca/documentation/xmlhelp/en_US/lcaSetSeverityWarnLevel.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='labca_manual'>
+    <title>labCA</title>
+  </info>
+
+<part xml:id='section_1d8f30a39f5c884062bac2892fe5269c'>
+<title>labCA</title>
+&aadaef45041eafe2bb68ffa93b876d4c6;
+&a2c58c2d7b83206988134615876d755bd;
+&ac5277aeef9ec88a2027983ba6fb332fa;
+&a7ba59af531f25f49dc1a588e5d14d012;
+&ac45651e58daccb8354cc4169b38c8025;
+&add8e4fff6307fe0adb01a725fa527561;
+&aea369ebcb1644715f105b77dae1aa891;
+&ad9b6b5350a208d85dacaf0cead2971c9;
+&a7602c1e64190224a4240405280a667d8;
+&ad899ab527b2e73e09545fcb87085b424;
+&ac3480b6383eda536a92a9f552f3c4874;
+&acaf4fb0afedfd819683c0c7e8226bb67;
+&a23b5fd2f3f47fd6a6abb94a56432254a;
+&a08c453c701dfe6d52ef26c360c43322a;
+&a95b32e07f44e6cf70cb45d30e112b1e8;
+&ad6824ff438f4356a799f0e1d53908dce;
+&a41244837b49589987670d886a9e76c0f;
+&a0811cb0ff098f9ed25c0587427b9880f;
+&a251ff0be886afc10793b059fdb2821fb;
+&a162242ab1e68192a04d568d9ad049410;
+&a6593fb90c439538b7af04dcf6dddd88b;
+&a6dfe57036446e968bc3daf3d1efc2849;
+&a77f8fb40e23297755dc307bdc279e8bd;
+&aa18ab840041a6f5a012d3494e7ea06db;
+&af130b33aee8976803dc4a1335168f1fb;
+</part>
+</book>
