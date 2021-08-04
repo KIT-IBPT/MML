@@ -1,0 +1,1 @@
+gitstring.o: gitstring.c
