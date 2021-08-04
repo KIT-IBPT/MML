@@ -90,7 +90,7 @@ if nargin >= 3
     elseif isnumeric(varargin{3})
         DeviceList = varargin{3};
         if ~isfield(varargin{1}, 'DeviceList')
-            varargin{1}.DeviceList = varargin{3};
+            varargout{1}.DeviceList = varargin{3};
         end
         DeviceListFlag = 1;
     else

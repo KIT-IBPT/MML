@@ -309,11 +309,11 @@ if ~isdeployed_local
                         addpath(fullfile(MMLROOT,'online','labca', 'bin','linux-x86','labca'), '-begin');
                     %end
                 case 'GLNXA64'
-                    %if MatlabVersion >= 9.3  % 2017b
-                    %    addpath(fullfile(MMLROOT,'online','labca3_5', 'bin','linux-x86_64','labca'), '-begin');
-                    %else
+                    if MatlabVersion >= 9.3  % 2017b
+                        addpath(fullfile(MMLROOT,'online','labca3_7', 'bin','linux-x86_64','labca'), '-begin');
+                    else
                         addpath(fullfile(MMLROOT,'online','labca', 'bin','linux-x86_64','labca'), '-begin');
-                    %end
+                    end
                 otherwise
                     fprintf('   LabCA not compiled yet for %s computer (hence model only).\n', computer);
             end
